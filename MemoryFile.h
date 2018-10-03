@@ -27,7 +27,6 @@
 extern const int DEFAULT_MMAP_SIZE;
 
 class MemoryFile {
-    NSString *m_name;
     int m_fd;
     size_t m_size;
 
